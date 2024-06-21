@@ -1,0 +1,18 @@
+{
+  "dashboard": {
+    "title": "Flask App Dashboard",
+    "panels": [
+      {
+        "title": "Request Count",
+        "type": "graph",
+        "targets": [
+          {
+            "expr": "request_count",
+            "legendFormat": "{{job}}",
+            "refId": "A"
+          }
+        ]
+      }
+    ]
+  }
+}
